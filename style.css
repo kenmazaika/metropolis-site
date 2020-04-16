@@ -1,0 +1,61 @@
+@font-face{font-family:AvenirNext;font-style:normal;font-weight:400;src:url(static/AvenirNext-Regular.eot);src:url(static/AvenirNext-Regular.woff) format("woff"),url(static/AvenirNext-Regular.ttf) format("truetype")}@font-face{font-family:AvenirNext;font-style:normal;font-weight:500;src:url(static/AvenirNext-Medium.eot);src:url(static/AvenirNext-Medium.woff) format("woff"),url(static/AvenirNext-Medium.ttf) format("truetype")}@font-face{font-family:AvenirNext;font-style:normal;font-weight:700;src:url(static/AvenirNext-Bold.eot);src:url(/static/AvenirNext-Bold.woff) format("woff"),url(static/AvenirNext-Bold.ttf) format("truetype")}
+@media screen and (min-width: 990px) {
+  #right-nav {
+     position: absolute;right: 0;width: 100px;
+  }
+}
+
+.bg-blue {
+background-color: white;
+}
+.navbar {
+}
+.navbar-light .navbar-nav .nav-link{
+
+color: #3e3e3c;
+font-family: 'Open Sans', sans-serif;
+}
+
+.navbar-light .navbar-nav .nav-link:hover{
+
+color: rgb(14, 48, 214);
+
+}
+
+.navbar-brand {
+font-family: 'AvenirNext';
+font-weight: 100;
+}
+
+h1 {
+font-family: 'AvenirNext';
+font-size: 60px;
+margin-top: 90px;
+margin-bottom: 90px;
+font-weight: 300;
+}
+
+h2, p {
+font-family: 'AvenirNext';
+}
+
+h2 {
+line-height: 44px;
+font-size: 30px;
+font-weight: bolder;
+}
+.wrapper {
+  max-width: 650px;
+  padding: calc(20px) calc(40px);
+}
+
+p {
+margin: 30px 0;
+line-height: 20px;
+font-size: 16px;
+}
+
+p a {
+color: rgb(14, 48, 214);
+font-weight: bold;
+}
